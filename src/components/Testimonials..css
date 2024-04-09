@@ -1,0 +1,74 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vh;
+  height: 40vh;
+  width: 40vw;
+  background-color: transparent;
+}
+
+.box {
+  text-align: center;
+  opacity: 0.5;
+  padding: 3vh 2vw;
+  height: 17vh;
+  width: 35vw;
+  background-color: white;
+  border-radius: 10px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.box p {
+  letter-spacing: -0.5px;
+  font-weight: 100;
+  font-size: 2.25vh;
+}
+
+#testimonial-image {
+  height: 10vh;
+  width: 10vh;
+  object-fit: cover;
+  margin-top: 2vh;
+  border-radius: 50%;
+}
+.data {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+}
