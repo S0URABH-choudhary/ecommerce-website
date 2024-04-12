@@ -8,12 +8,12 @@ function Nav() {
     <div className='navbar'>
         <div className="logo"><img src={Logo} alt="" /></div>
         <div className="links">
-            <a href="#">home</a>
-            <a href="#">about us</a>
-            <a href="#">contact</a>
-            <a href="#">products</a>
+            <a href="/">home</a>
+            <a href="/aboutus">about us</a>
+            <a href="/contact">contact</a>
+            <a href="/product">products</a>
         </div>
-        <div className="icon"><a href="#"><FaCartShopping /><span>0</span></a></div>
+        <div className="icon"><a href="#"><FaCartShopping style={{color: 'black'}} /><span>0</span></a></div>
     </div>
   )
 }

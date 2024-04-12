@@ -27,6 +27,11 @@
     color: black;
 
 }
+.icon span{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}
 .icon{
     margin-right: 2vw;
     font-size: 2.5vh;
