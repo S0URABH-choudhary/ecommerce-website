@@ -11,6 +11,11 @@ function Footer() {
             </h4>
             <button className="btn"> <a href="/aboutus">Know more</a></button>
           </div>  
+          <hr style={{
+            width:'100%',
+            border:'0.5px solid white',
+            marginBottom:'2vh'
+          }}/>
           <div className='footer-content'>
             <div className="info">
               <h4>krishna store</h4>
