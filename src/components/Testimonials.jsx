@@ -17,10 +17,18 @@ import "./Testimonials..css";
 function Testimonials() {
   return (
     <>
-      <Swiper
-        slidesPerView={2}
+      <Swiper style={{}}
+        breakpoints={{
+          320:{
+            slidesPerView:1,
+          },
+          768:{
+            slidesPerView:2,
+
+          }
+        }}
         spaceBetween={20}
-        Autoplay={true}
+        Autoplay={2}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -28,6 +36,7 @@ function Testimonials() {
         pagination={{
         clickable: true,
         }}
+        
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >

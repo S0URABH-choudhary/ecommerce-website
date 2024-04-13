@@ -15,14 +15,14 @@
     background-color: #fff;
 }
 
-.links{
+.link{
     display: flex;
     position: relative;
     gap: 1.5vw;
     
 }
 
-.links a{
+.link a{
     text-decoration: none;
     color: black;
 

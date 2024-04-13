@@ -3,7 +3,7 @@ import './aboutus.css'
 
 function aboutus() {
   return (
-    <div className='about-krishna-store'><h1>about us</h1></div>
+    <div className='about-krishna-store'></div>
   )
 }
 

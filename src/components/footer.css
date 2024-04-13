@@ -76,7 +76,7 @@
 .info {
   padding: 0vh 3vw;
   height: 40vh;
-  width: 20%;
+  min-width: 20%;
   color: #fff;
 }
 .socialmedia h4 {
@@ -85,8 +85,22 @@
 .socialmedia {
   padding: 0vh 3vw;
   height: 40vh;
-  width: 20%;
+  min-width: 20%;
   color: #fff;
+}
+
+.links{
+  display: flex;
+  position: relative;
+  gap: 1.5vw;
+}
+
+.links a{
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
 }
 .phonenumber h4 {
   font-size: larger;
@@ -94,7 +108,7 @@
 .phonenumber {
   padding: 0vh 3vw;
   height: 40vh;
-  width: 20%;
+  min-width: 20%;
   color: #fff;
 }
 
@@ -115,6 +129,13 @@
   .btn {
     height: 5.5vh;
     width: 13vh;
+    border: none;
+  }
+  /* media links media querry */
+  .socialmedia h4{
+    width: 30vh;
+  }
+  .links a{
     border: none;
   }
 }

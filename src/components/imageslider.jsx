@@ -16,8 +16,11 @@ import Photo3 from '../assets/banner3.webp'
 import Photo4 from '../assets/banner4.webp'
 import Photo5 from '../assets/banner5.webp'
 
+
+
 function Imageslider() {
   return (
+    
     <>
     <Swiper
       cssMode={true}
