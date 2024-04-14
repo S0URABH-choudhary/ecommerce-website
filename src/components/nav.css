@@ -41,9 +41,10 @@
     text-decoration: none;
 }
 
+
 .logo img{
     margin-left: 1vw;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 7rem;
     object-fit: cover;
 }

@@ -15,6 +15,7 @@ import Photo1 from '../assets/banner1.webp'
 import Photo3 from '../assets/banner3.webp'
 import Photo4 from '../assets/banner4.webp'
 import Photo5 from '../assets/banner5.webp'
+import { GiHidden } from 'react-icons/gi';
 
 
 
@@ -23,8 +24,8 @@ function Imageslider() {
     
     <>
     <Swiper
+      navigation={false}
       cssMode={true}
-      navigation={true}
       pagination={true}
       mousewheel={true}
       keyboard={true}

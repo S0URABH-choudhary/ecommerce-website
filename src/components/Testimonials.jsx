@@ -28,10 +28,10 @@ function Testimonials() {
           }
         }}
         spaceBetween={20}
-        Autoplay={2}
+        Autoplay={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction:false,
         }}
         pagination={{
         clickable: true,
