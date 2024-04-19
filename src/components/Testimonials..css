@@ -72,4 +72,34 @@ body {
   align-items: center;
   gap: 5vh;
 }
+
+@media screen and (max-width:320px){
+  .box{
+    width: 80vw;
+    height: auto;
+  }
+}
+@media screen and (max-width:376px){
+  .box{
+    width: 80vw;
+    height: auto;
+  }
+}
+@media screen and (max-width:426px){
+  .box{
+    width: 80vw;
+    height: auto;
+  }
+}
+@media screen and (max-width:768px){
+  .box{
+    height: auto;
+  }
+}
+@media screen and (max-width:1024px){
+  .box{
+    height: auto;
+  }
+}
+
  
