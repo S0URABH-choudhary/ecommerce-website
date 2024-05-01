@@ -13,7 +13,7 @@
   
   }
   .testimonial-wraper h2{
+    font-size: clamp(23px, 8vw, 44px);
     margin-left: 3vw;
     font-weight: 500;
-    font-size: 2.5vw;
   }
